@@ -1,0 +1,880 @@
+.cv_before {
+
+    padding: 20px;
+
+    overflow: auto;
+
+    margin: 3px;
+
+}
+
+.header_cv {
+
+    float: left;
+
+    text-align: left;
+
+}
+
+.header_cv_right {
+
+    border-bottom: 2px solid #ccc;
+
+    position: relative;
+
+    display: flex;
+
+    padding-top: 5em;
+
+}
+
+.header_cv {
+
+    float: left;
+
+    text-align: left;
+
+    width: auto;
+
+    display: inline-block;
+
+}
+
+.timeline_ele {
+
+    margin: 2em 0 0px;
+
+    border-right-width: 30px;
+
+    border-color: black;
+
+}
+
+.timeline_ele h4 {
+
+    max-width: 120px;
+
+    float: left;
+
+    margin: 0 10px 0 0;
+
+}
+
+.timeline_ele pre {
+
+    padding: .7em 33px;
+
+    border-radius: 0;
+
+    border: none;
+
+    background: #3fb764;
+
+    border-top: 5px solid rgb(255, 255, 255);
+
+}
+
+
+
+/* timeline css */
+
+.timeline ul li {
+
+  list-style-type: none;
+
+  position: relative;
+
+  width: 2px;
+
+  margin: 0 20%;
+
+  background: #3fb764;
+
+}
+
+
+
+.timeline ul li::after {
+
+  content: '';
+
+  position: absolute;
+
+  left: 50%;
+
+  top: 0;
+
+  transform: translateX(-50%);
+
+  width: 20px;
+
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: inherit;
+
+}
+
+
+
+.timeline ul li div {
+
+    position: relative;
+
+    bottom: 0;
+
+    width: 260px;
+
+    padding: 0px 0 10px;
+
+}
+
+
+
+.timeline ul li div {
+
+  left: 45px;
+
+}
+
+.year_timeline {
+
+    position: absolute;
+
+    top: 7px;
+
+    left: -70px;
+
+}
+
+span.percentage {
+
+    position: absolute;
+
+    left: 110%;
+
+    bottom: 60%;
+
+    width: 180px;
+
+    font-weight: 400;
+
+}
+
+.skill_strength .label.label-default {
+
+    margin: 2px 2px;
+
+    min-width: 50px;
+
+    display: inline-flex;
+
+    min-height: 20px;
+
+    font-size: small;
+
+}
+
+span.label.label-default.success {
+
+    background: #3fb764;
+
+}
+
+.certi_cv {
+
+    width: 25%;
+
+    margin-left: 20%;
+
+    float: left;
+
+    border-left: 2px solid #FFC107;
+
+    padding-left: 15px;
+
+}
+
+.certi_cvleft {
+
+    width: 54%;
+
+    float: right;
+
+    font-size: 15px;
+
+}
+
+section#work_cv pre {
+
+    background: #2f99cd;
+
+}
+
+section#work_cv .timeline ul li {
+
+    background: #2f99cd;
+
+}
+
+section#skills_cv pre {
+
+    background: #9956a2;
+
+}
+
+section#certi_cv pre {
+
+    background: #fbb03f;
+
+}
+
+section#achv_cv pre {
+
+    background: #ee3568;
+
+}
+
+section#extra_cv pre {
+
+    background: #48c2c4;
+
+}
+
+section#extra_cv .timeline ul li {
+
+    background: #48c2c4;
+
+}
+
+.achv_cv {
+
+    width: 45%;
+
+    margin-left: 20%;
+
+    float: left;
+
+    border-left: 2px solid #ee3568;
+
+    padding-left: 15px;
+
+}
+
+.achv_cvleft {
+
+    width: 34%;
+
+    float: right;
+
+    font-size: 15px;
+
+}
+
+span.percentage_extra {
+
+    position: absolute;
+
+    left: 110%;
+
+    bottom: 60%;
+
+    width: 180px;
+
+    font-weight: 400;
+
+    top: 0px;
+
+}
+
+section.user_description {
+
+    width: 60%;
+
+    float: right;
+
+    padding-top: 40px;
+
+}
+
+span.cv_userbio {
+
+    font-size: larger;
+
+    font-weight: 400;
+
+    padding: 0px 20px;
+
+}
+
+i.material-icons.pf1 {
+
+    font-size: 17px;
+
+}
+
+.edu_bw {
+
+    width: 50%;
+
+}
+
+.edu_bw .timeline ul li {
+
+    list-style-type: none;
+
+    position: relative;
+
+    width: 2px;
+
+    margin: 0 5%;
+
+    background: #ccc;
+
+}
+
+.edu_bw .year_timeline {
+
+    top: 0px;
+
+    left: -58px;
+
+}
+
+.edu_bw .timeline ul li div {
+
+    left: 30px;
+
+}
+
+.edu_bw span.percentage {
+
+    position: relative;
+
+    font-weight: 400;
+
+    display: block;
+
+    padding-top: 5px;
+
+    left: 0;
+
+}
+
+.edu_bw.timeline_ele pre {
+
+    padding: .1em 0px;
+
+    border-radius: 0;
+
+    border: none;
+
+    background: #cccccc;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+    margin: 0;
+
+}
+
+.skills_bw {
+
+    float: right;
+
+    width: 48%;
+
+    margin-top: -43%;
+
+}
+
+.skills_bw.timeline_ele h4 {
+
+    float: right;
+
+    padding-left: 12px;
+
+    padding-top: 2px;
+
+}
+
+.skills_bw > section#skills_cv pre {
+
+    background: #cccccc;
+
+    padding: .13em 33px;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+}
+
+.skills_bw>pre {
+
+    background: #cccccc !important;
+
+    padding: .13em 33px;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+}
+
+.work_bw {
+
+    width: 50%;
+
+}
+
+.work_bw>pre {
+
+    background: #cccccc !important;
+
+    padding: .13em 33px;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+}
+
+.work_bw .timeline ul li div {
+
+    left: -245px;
+
+    width: 230px;
+
+}
+
+.work_bw .timeline ul li {
+
+    background: #cccccc !important;
+
+    float: right;
+
+    margin-right: 32%;
+
+}
+
+.work_bw .year_timeline {
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 28px;
+
+    width: 80px;
+
+}
+
+.work_bw span.percentage {
+
+    position: relative;
+
+    width: 180px;
+
+    font-weight: 400;
+
+    display: block;
+
+    padding-top: 10px;
+
+    left: 0;
+
+}
+
+.work_bw.timeline_ele h4 {
+
+    float: right;
+
+    padding-left: 15px;
+
+}
+
+.certi_bw {
+
+    width: 50%;
+
+    float: right;
+
+    margin-top: -48%;
+
+}
+
+.certi_bw.timeline_ele pre {
+
+    padding: .1em 33px;
+
+    background: #cccccc !important;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+}
+
+.certi_bw .certi_cv {
+
+    width: 95%;
+
+    margin-left: 5%;
+
+    border-left: 2px solid #cccccc;
+
+    padding-left: 15px;
+
+}
+
+.certi_bw .certi_cvleft {
+
+    width: 95%;
+
+    border-left: 2px solid #cccccc;
+
+    margin-left: 5%;
+
+    padding-left: 15px;
+
+}
+
+.certi_bw .timeline {
+
+    padding: 20px 0 20px;
+
+    overflow: auto;
+
+}
+
+.achv_bw {
+
+    width: 48%;
+
+    float: left;
+
+}
+
+.achv_bw > pre {
+
+    padding: .1em 0px;
+
+    border-radius: 0;
+
+    border: none;
+
+    background: #cccccc !important;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+    margin: 0;
+
+}
+
+.achv_bw .achv_cv {
+
+    width: 100%;
+
+    float: left;
+
+    padding-left: 0px;
+
+    border-right: 2px solid #cccccc;
+
+    margin-left: 0;
+
+    border-left: none;
+
+}
+
+.achv_bw .achv_cvleft {
+
+    width: 100%;
+
+    float: left;
+
+    font-size: 15px;
+
+    border-right: 2px solid #cccccc;
+
+    padding-right: 4%;
+
+}
+
+.extra_bw {
+
+    width: 48%;
+
+    float: right;
+
+}
+
+.extra_bw.timeline_ele pre {
+
+    padding: .1em 0px;
+
+    border-radius: 0;
+
+    border: none;
+
+    background: #cccccc !important;
+
+    border-top: 15px solid rgb(255, 255, 255);
+
+    margin: 0;
+
+}
+
+.extra_bw .year_timeline {
+
+    top: 0px;
+
+    left: -58px;
+
+}
+
+.extra_bw .timeline ul li {
+
+    list-style-type: none;
+
+    position: relative;
+
+    width: 2px;
+
+    margin: 0 5%;
+
+    background: #ccc !important;
+
+}
+
+.extra_bw .timeline ul li div {
+
+    left: 30px;
+
+}
+
+.extra_bw span.percentage_extra {
+
+    position: relative;
+
+    font-weight: 400;
+
+    display: block;
+
+    padding-top: 5px;
+
+    left: 0;
+
+}
+
+.extra_bw.timeline_ele h4 {
+
+    float: right;
+
+    padding-left: 15px;
+
+}
+
+.user_bw.user_description {
+
+    width: 60%;
+
+    float: right;
+
+    padding-top: 40px;
+
+    color: #78909C;
+
+}
+
+.cv_color3 {
+
+    background: #fc7a70;
+
+}
+
+.cv_t3 {
+
+    margin: auto;
+
+}
+
+.cv3_img {
+
+    margin: auto;
+
+    max-width: 140px;
+
+}
+
+.cv_t3 {
+
+    margin: auto;
+
+    color: white;
+
+    text-transform: uppercase;
+
+}
+
+.cv3_sec1 {
+
+    padding: 100px 50px 20px;
+
+}
+
+.cv3_sec2 {
+
+    width: 75%;
+
+    margin: auto;
+
+    padding: 0 0 50px;
+
+}
+
+h1.cv3_name {
+
+    font-size: 3em;
+
+    font-weight: bolder;
+
+}
+
+.cv3_sec3 h5 {
+
+    line-height: 8px;
+
+    font-size: 15px;
+
+}
+
+.cv3_sec3 hr {
+
+    width: 45%;
+
+}
+
+.cv3_sec4 h4 {
+
+    font-weight: bold;
+
+}
+
+.cv_t4 {
+
+    padding: 25px 15px;
+
+}
+
+.cv3_sec5, .cv3_sec6, .cv3_sec7, .cv3_sec8, .cv3_sec9, .cv3_sec10 {
+
+    padding-bottom: 20px;
+
+}
+
+.cv3_sec51, .cv3_sec61, .cv3_sec71, .cv3_sec81, .cv3_sec91, .cv3_sec101 {
+
+    display: flex;
+
+    padding: 0 0 10px;
+
+}
+
+.cv3_sec5 p {
+
+    padding: 5px;
+
+}
+
+.cv_t4 i {
+
+    color: #777;
+
+    display: inline-block;
+
+    padding-top: 0;
+
+}
+
+.cv_t4 h6 {
+
+    color: #fc7a70;
+
+    display: inline-block;
+
+    margin: 2px 15px;
+
+    clear: both;
+
+    font-weight: 500;
+
+}
+
+.cv3_sec6 p {
+
+    margin: 0;
+
+    padding: 0 5px 0;
+
+}
+
+.cv3_sec7 p {
+
+    margin: 0;
+
+    padding: 0 5px 0;
+
+    color: #777;
+
+    text-transform: uppercase;
+
+}
+
+.sec7_inner, .sec6_inner, .sec8_inner, .sec9_inner, .sec10_inner {
+
+    padding-bottom: 11px;
+
+}
+
+.sec8_col1 {
+
+    display: flex;
+
+}
+
+.cv3_sec9 p {
+
+    margin: 0;
+
+    padding: 0 5px 0;
+
+    color: #777;
+
+    text-transform: uppercase;
+
+}
+
+.cv3_sec9 p:nth-child(2) {
+
+    color: #b1b1b1;
+
+}
+
+.cv3_sec10 p {
+
+    margin: 0;
+
+    padding: 0 5px 0;
+
+    color: #777;
+
+    text-transform: uppercase;
+
+}
+
+.cv3_sec10 p:nth-child(2) {
+
+    color: #
+
+b1b1b1;
+
+}
+
+teeno formats me kafi classes same used hain to ye css teeno formats k liye ha.
+r2485gupta	
+7:30 PM
+tino ka alag alag bhej de bhai 
