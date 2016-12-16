@@ -8,8 +8,6 @@ from django.conf import settings
 from api.models import *
 from api.forms import *
 import os
-import json
-import pdfcrowd
 
 def login_user(request):
 	if request.method == 'POST' and 'loginForm' in request.POST:
